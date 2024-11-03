@@ -1,0 +1,85 @@
+<button class="product__prev swiper-button-prev" type="button">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.992 1.00777L2.016 6.98377L7.992 12.9598L6.984 13.9678L-3.0528e-07 6.98377L6.984 -0.000227365L7.992 1.00777Z"
+                                            fill="#FFA55C" />
+                                        <path
+                                            d="M1.0083 7.70312L1.0083 6.26313L13.2483 6.26312L13.2483 7.70312L1.0083 7.70312Z"
+                                            fill="#FFA55C" />
+                                    </svg>
+                                </button>
+                            <button class="product__next swiper-button-next" type="button">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.25653 12.96L11.2325 6.984L5.25654 1.008L6.26454 -3.0528e-07L13.2485 6.984L6.26454 13.968L5.25653 12.96Z"
+                                            fill="#FFA55C" />
+                                        <path
+                                            d="M12.2402 6.26465L12.2402 7.70465L0.000234839 7.70465L0.000234902 6.26465L12.2402 6.26465Z"
+                                            fill="#FFA55C" />
+                                    </svg>
+                                </button>
+
+
+
+
+
+
+<div class="testimonials__slide">
+                            <p class="testimonials__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
+                                eros dolor interdum nulla, ut commodo diam libero vitae erat."</p>
+                            <div class="testimonials__info">
+                                <img class="testimonials__profile" src="/img/icons/avatar/Avatar Image.jpg" alt="">
+                                <div class="testimonials__test">
+                                    <h4 class="testimonials__name">Theresa Webb</h4>
+                                    <div class="testimonialst__location">Локация</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.5" y="0.5" width="63" height="63" rx="31.5" fill="white" />
+                                        <rect x="0.5" y="0.5" width="63" height="63" rx="31.5" stroke="#101010" />
+                                        <path d="M29 24.5L36.5 32L29 39.5" stroke="#101010" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.32">
+                                            <rect x="0.5" y="0.5" width="63" height="63" rx="31.5" fill="white" />
+                                            <rect x="0.5" y="0.5" width="63" height="63" rx="31.5" stroke="black" />
+                                            <path d="M35 24.5L27.5 32L35 39.5" stroke="#101010" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
