@@ -1,0 +1,144 @@
+
+
+.cart__inner {
+    display: flex;
+    gap: 16px;
+}
+
+.cart__basket {
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 1030px;
+    height: 680px;
+    background: var(--white);
+}
+
+.cart__title {
+    margin-bottom: 48px;
+}
+
+
+.cart__in-subtitle {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.6fr 0.5fr;
+    min-width: 950px;
+    height: 23px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--stroke);
+    margin-bottom: 24px;
+}
+
+
+
+.prod {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.cart__in-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.cart__total {
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 354px;
+    height: 680px;
+    background: var(--white);
+}
+
+
+.cart__total-title {
+    margin-bottom: 24px;
+}
+
+.cart__total-itog {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--stroke);
+    margin-bottom: 12px;
+    box-shadow: 0 1px 0 0 #e5e5e5;
+    background: var(--white);
+}
+
+.cart__total-itog:last-child {
+    box-shadow: none !important;
+}
+
+.cart__total-itog span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+.cart__total-button {
+    border-radius: 200px;
+    padding: 14px 32px;
+    background: var(--orange);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+    margin-top: 24px;
+}
+.cart__total-button:hover {
+    background: #ff9e35;
+}
+.cart__in-item:hover path{
+    stroke:var(--black);
+
+    
+}
+.promo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 225px;
+    border: 0.50px solid var(--stroke);
+    border-radius: 200px;
+    padding: 6px 32px 6px 6px;
+    width: 187px;
+    background: var(--black);
+    height: 48px;
+
+}
+
+.promo input {
+    height: 32px;
+    width: 80px;
+    background: var(--black);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+}
+
+.promo input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+}

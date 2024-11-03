@@ -1,0 +1,38 @@
+.forget-text {
+    margin-bottom: 48px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #9ca3af;
+    margin-bottom: 48px;
+}
+
+.forget-title {
+    margin-bottom: 24px;
+}
+
+.forget__in {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 75px;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+
+.forget__in input {
+    border: 0.50px solid var(--gary);
+    border-radius: 200px;
+    padding: 14px 16px;
+    width: 472px;
+    height: 49px;
+}
+
+.forget__in input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--stroke);
+}

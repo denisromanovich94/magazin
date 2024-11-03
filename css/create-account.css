@@ -1,0 +1,123 @@
+.create__inner {
+    display: flex;
+    gap: 16px;
+}
+
+.create__inner-img {
+    border-radius: 16px;
+    width: 832px;
+    height: 680px;
+}
+
+.create__account-info {
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 552px;
+    height: 680px;
+    background: var(--white);
+
+}
+
+.create__account-title {
+    margin-bottom: 48px;
+}
+
+.create__in {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 223px;
+    margin-bottom: 48px;
+    gap: 16px;
+}
+
+.create__in input:not([type="radio"]) {
+    border: 0.50px solid var(--gary);
+    border-radius: 200px;
+    padding: 14px 16px;
+    width: 472px;
+    height: 49px;
+    background: var(--white);
+}
+
+.create__in input::placeholder {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #999;
+}
+
+.radio-create__account1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--stroke);
+}
+
+.radio-create__account {
+    display: flex;
+
+    gap: 5px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--stroke);
+
+}
+
+.radio-create__account input[type="radio"] {
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    cursor: pointer;
+    position: relative;
+
+}
+
+.radio-create__account input[type="radio"]:checked {
+    background: #ccc;
+}
+
+.create-btn {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+    border-radius: 200px;
+    padding: 14px 32px;
+    width: 100%;
+    background: var(--orange);
+    margin-bottom: 24px;
+}
+.create-btn:hover {
+    background: #ff9e35;
+}
+
+.cr-link {
+    display: flex;
+    padding: 4px 0px 0px 0px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--stroke);
+    gap: 2px;
+}
+
+.create-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--orange);
+}

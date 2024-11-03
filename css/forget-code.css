@@ -1,0 +1,37 @@
+.forget-text span {
+    color: var(--black);
+}
+
+.input-group {
+    width: 472px;
+    height: 75px;
+}
+
+.inputs-row input {
+    border: 0.50px solid var(--gary);
+    border-radius: 200px;
+    padding: 14px 18px;
+    width: 112px;
+    height: 49px;
+    background: var(--white);
+}
+
+.create__button {
+    margin-top: 48px;
+}
+
+.inputs-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.label {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+

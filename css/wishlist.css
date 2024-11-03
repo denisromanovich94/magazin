@@ -1,0 +1,204 @@
+.wish {
+    height: 1010px;
+}
+
+.wishlist__title-cont {
+    border-radius: 16px;
+    width: 1072px;
+    height: 700px;
+    background: var(--white);
+}
+
+.wishlist__title {
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.wishlist__info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    border-radius: 16px;
+    padding: 32px 40px;
+    width: 1072px;
+    height: 898px;
+    background: var(--white);
+
+}
+
+.wishlist-clean__info {
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 1072px;
+    height: 700px;
+}
+
+.wish__log-out {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--stroke);
+    margin-top: 616px;
+}
+
+
+.wishlist__inner {
+    display: flex;
+    gap: 16px;
+    height: 1010px;
+}
+
+.wishlist__navigation {
+    border-radius: 16px;
+    padding: 40px 0px;
+    width: 312px;
+    height: 970px;
+    background: var(--white);
+}
+
+.wishlist-clean__navigation {
+    border-radius: 16px;
+    padding: 40px 0px;
+    width: 312px;
+    height: 700px;
+    background: var(--white);
+}
+
+.wish-clean__log-out {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--stroke);
+    margin-top: 346px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wish__card-tastes {
+    position: relative;
+    border-radius: 20px;
+    padding: 24px;
+    width: 314px;
+    height: 392px;
+    background: var(--light-gray);
+}
+
+.wish__card-tastes img {
+    width: 266px;
+    height: 200px;
+}
+
+.wish__card-tastes::after {
+    position: absolute;
+    content: url(../img/Heartorange.png);
+    top: 20px;
+    right: 20px;
+}
+
+.wish__text-tastes {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #231e1b;
+}
+
+.wish__btn-buy-tastes {
+    border-radius: 200px;
+    padding: 14px 32px;
+    width: 115px;
+    height: 49px;
+    background: var(--black);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+
+}
+.wish__btn-buy-tastes:hover {
+    background: var(--orange);
+}
+
+.wish__btn-info-tastes:hover {
+    border: 0.50px solid var(--orange);
+    color: var(--orange);
+}
+.wish__btn-info-tastes {
+    border: 0.50px solid var(--stroke);
+    border-radius: 200px;
+    padding: 14px 32px;
+    width: 150px;
+    height: 49px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--black);
+}
+
+.wish__header-tastes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+.wish__header-tastes span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #231e1b;
+}
+
+
+.wish-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+
+}
+
+
+
+.wishlist__clean {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 992px;
+    height: 408px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    color: var(--stroke);
+}

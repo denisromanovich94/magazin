@@ -1,0 +1,5 @@
+@media (max-width: 376px) {
+    .burger__menu {
+        display: flex;
+    }
+}

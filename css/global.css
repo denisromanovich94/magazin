@@ -1,0 +1,60 @@
+:root {
+    /* fonts============================================== */
+    --font-family: "Gilroy", sans-serif;
+    --second-family: "Poppins", sans-serif;
+    --third-family: "Inter", sans-serif;
+    --font3: "Gilroy", sans-serif;
+    --font4: "Myriad Pro", sans-serif;
+    --font5: "TT Hoves", sans-serif;
+    --font6: "SF Pro Display", sans-serif;
+    --font7: "Marion", sans-serif;
+    /* color ================================================*/
+    --bg-light-gary: #f9f9f9;
+    --white: #fff;
+    --light-gray: #f7f7f7;
+    --black: #101010;
+    --orange: #ff921c;
+    --stroke: #9b9b9b;
+    --gary: #c2cfdb;
+}
+body {
+    background: var(--bg-light-gary);
+}
+h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    color: #1d1d1d;
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #1d1d1d;
+}
+
+h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #1d1d1d;
+}
+
+h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 110%;
+    color: #1d1d1d;
+}
+
+.container {
+    width: 1440px;
+    padding: 20px 20px 0 20px;
+}
+
+

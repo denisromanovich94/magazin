@@ -1,0 +1,205 @@
+.tastes__inner {
+    border-radius: 16px;
+    padding: 64px 48px;
+    width: 1400px;
+    height: 2512px;
+    background: var(--white);
+}
+
+.tastes__title {
+    margin-bottom: 48px;
+}
+
+.tastes__selector {
+    display: flex;
+    justify-content: space-between;
+    width: 1304px;
+    height: 49px;
+    margin-bottom: 48px;
+}
+
+.tastes__selector1 {
+    width: 570px;
+    height: 47px;
+}
+
+.tastes__button {
+    border: 0.50px solid var(--gary);
+    border-radius: 32px;
+    padding: 14px 32px;
+    background: var(--white);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #231e1b;
+}
+.tastes__button:hover {
+    border: 0.50px solid var(--orange);
+    color: var(--orange);
+}
+.tastes__button-active:hover {
+    background: #ff9e35;
+}
+
+.tastes__button-active {
+    border-radius: 32px;
+    padding: 14px 32px;
+    background: var(--orange);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.tastes__selector2 {
+    border: 0.50px solid var(--gary);
+    border-radius: 32px;
+    padding: 14px 16px;
+    background: var(--white);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #231e1b;
+    max-width: 191px;
+}
+
+.tastes__block {
+    display: flex;
+    gap: 24px;
+    width: 1304px;
+    height: 500px;
+    margin-bottom: 48px;
+}
+
+
+.product__card-tastes {
+    position: relative;
+    border-radius: 20px;
+    padding: 24px;
+    max-width: 418px;
+    height: 501px;
+    background: var(--light-gray);
+}
+
+
+
+.card__text-tastes {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.card__btn-buy-tastes {
+    border-radius: 200px;
+    padding: 14px 32px;
+    width: 180px;
+    height: 49px;
+    background: var(--black);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+}
+.card__btn-buy-tastes:hover {
+    background: var(--orange);
+}
+
+.card__btn-info-tastes {
+    border: 0.50px solid var(--stroke);
+    border-radius: 200px;
+    padding: 14px 32px;
+    width: 180px;
+    height: 49px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--black);
+}
+.card__btn-info-tastes:hover {
+    color: var(--orange);
+    border: 0.50px solid var(--orange);
+}
+
+.card__header-tastes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: 0.50px solid var(--gary);
+    border-radius: 32px;
+    padding: 14px 16px;
+    font-family: var(--font-family);
+}
+.dropdown:hover {
+    border: 1px solid var(--orange);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    position: relative;
+    background-color: var(--white);
+    min-width: 200px;
+
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+    border: 0.50px solid #f2f2f3;
+    border-radius: 8px;
+    padding: 24px;
+    z-index: 1;
+}
+
+.dropdown-content div {
+    padding: 8px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #231e1b;
+    cursor: pointer;
+}
+
+.dropdown-content div:hover {
+    color: var(--orange);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.selected-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px; /* Перемещение стрелки вправо */
+    
+}
+
+.selected-option svg {
+    margin-left: 10px; /* Отступ слева для стрелки */
+}
