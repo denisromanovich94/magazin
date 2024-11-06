@@ -111,7 +111,7 @@
 
 .wish__card-tastes::after {
     position: absolute;
-    content: url("../img/Heartorange.png");
+    content: url('../img/Heartorange.png');
     top: 20px;
     right: 20px;
 }
