@@ -1,8 +1,6 @@
-
 .footer__inner {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
     border-radius: 12px;
     padding: 32px 52px 14px 52px;
     height: 193px;
@@ -17,16 +15,41 @@
 
 .footer__1 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    width: 786px;
+    height: 147px;
 }
 
 .footer__2 {
     display: flex;
+
     justify-content: space-between;
     font-size: 14px;
 }
 
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 486px;
+    height: 147px;
+}
+.footer__logo img{
+    width: 54px;
+    height: 30px;
+}
 
-.footer__socials-link:hover path{
-fill: var(--orange);
+.footer__socials-link:hover path {
+    fill: var(--orange);
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__11 {
+    display: flex;
+    justify-content: space-between;
 }
