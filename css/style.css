@@ -625,6 +625,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    z-index: 10;
 }
 
 .product__img:hover path {
