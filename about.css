@@ -1,0 +1,417 @@
+.about-d__inner {
+    display: flex;
+    height: 580px;
+    background: var(--bg-light-gary);
+    gap: 16px;
+}
+
+.about-d__img {
+    border-radius: 16px;
+    width: 692px;
+    height: 580px;
+}
+
+.about-d__info {
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 692px;
+    height: 580px;
+    background: var(--white);
+}
+
+
+
+.about-d__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--stroke);
+}
+
+.about-d__button {
+    border-radius: 200px;
+    padding: 14px 32px;
+    background: var(--orange);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+    margin-top: 32px;
+}
+.about-d__button:hover {
+    background: #ff9e35;
+}
+
+.about-d__buyers {
+    display: flex;
+    align-items: center;
+    margin-top: 157px;
+}
+
+.about-d__buyers img {
+    margin-left: -5%;
+}
+
+.about-d__buyers img:first-child {
+    margin-left: 0;
+}
+
+.about-d__buy-titl-text {
+    margin-left: 24px;
+}
+
+
+
+.numbers {
+    display: flex;
+    gap: 16px;
+    background: var(--light-gray);
+    height: 270px;
+}
+
+.numbers__nature {
+    border-radius: 16px;
+    padding: 48px 40px;
+    width: 338px;
+    height: 250px;
+    background: var(--white);
+}
+
+
+.nature__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    text-align: center;
+    color: var(--orange);
+}
+
+.nature__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--black);
+}
+
+.testimonials__img1 {
+    padding: 0px 20px 20px 20px;
+    width: 1400px;
+    height: 570px;
+}
+
+.testimonials__img1 img {
+    border-radius: 16px;
+}
+
+
+
+
+.testimonials__slider {
+    height: 267px;
+    margin-bottom: 64px;
+}
+
+.testimonials__title1 {
+    text-align: center;
+}
+
+
+
+.testimonials__slide {
+    border: 1px solid rgba(155, 155, 155, 0.5);
+    border-radius: 12px;
+    padding: 32px 24px;
+    width: 450px;
+    height: 267px;
+
+}
+
+.about-us1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 64px 64px 0 64px;
+    width: 1400px;
+    height: 533px;
+    background: var(--white);
+    gap: 48px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.testimonials__info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 210px;
+    height: 56px;
+    gap: 10px;
+}
+
+.testimonials__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--black);
+}
+
+.testimonials__test {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialst__location {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--stroke);
+}
+
+.testimonials__slider {
+    height: 267px;
+}
+
+
+.testimonials__info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 210px;
+    height: 56px;
+    gap: 10px;
+}
+
+.testimonials__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--black);
+}
+
+
+
+
+.lemonades {
+    border-radius: 16px;
+    padding-top: 65px;
+    padding-left: 48px;
+    width: 1399px;
+    height: 602px;
+    background: url(../img/content/pikaso_edit_Candid-image-photography-natural-textures-highly-r\ 2.png);
+}
+
+
+.lemonades__inner {
+    width: 751px;
+    height: 472px;
+
+}
+
+.lemonades__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.lemonades__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.lemonades__button {
+    border-radius: 200px;
+    padding: 14px 32px;
+    width: 153px;
+    height: 50px;
+    background: var(--black);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--white);
+    margin-bottom: 75px;
+}
+.lemonades__button:hover {
+    background: var(--orange);
+}
+
+.lemonades__text2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--white);
+}
+
+
+.teas {
+    width: 1440px;
+    height: 602px;
+    margin-top: 20px;
+}
+
+.teas__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-left: 39px;
+    border-radius: 16px;
+    width: 1399px;
+    height: 602px;
+    background: url(../img/content/pikaso_edit_Candid-image-photography-natural-textures-highly-r\ 2\ \(1\).png);
+}
+
+.teas__container {
+
+    width: 593px;
+    height: 329px;
+}
+
+.teas__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+
+.teas__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.teas__button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+    border-radius: 200px;
+    padding: 14px 32px;
+    background: var(--orange);
+}
+.teas__button:hover {
+    background: #ff9e35;
+}
+
+.teas__text2 {
+    width: 646px;
+    height: 36px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: var(--white);
+    margin-bottom: 65px;
+}
+
+.signa__inner {
+    display: flex;
+    gap: 20px;
+}
+
+.signa__container {
+    border-radius: 16px;
+    padding: 64px 40px;
+    width: 692px;
+    height: 643px;
+    background: var(--white);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signa__title {
+    margin-bottom: 24px;
+}
+
+.signa__text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.signa__list {
+    padding-left: 20px;
+    margin-bottom: 48px;
+
+}
+
+.signa__item {
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--black);
+}
+
+.signa__item::before {
+    content: '•';
+    color: var(--orange);
+    position: absolute;
+    left: -12px;
+    font-size: 15px;
+}
+
+.signa__item span {
+    color: var(--orange);
+}
+
+.signa__button {
+    border-radius: 200px;
+    padding: 14px 32px;
+    background: var(--orange);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white);
+}
+.signa__button:hover {
+    background: #ff9e35;
+}
+
+.signa__img {
+    width: 692px;
+    height: 643px;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.signa__img img {
+    width: 692px;
+    height: 643px;
+    border-radius: 16px;
+
+
+}
