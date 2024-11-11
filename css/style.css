@@ -1308,7 +1308,7 @@
     }
 
     .testimonials__img {
-        background: url(/img/content/image12-mini.png) !important;
+        background: url("../img/content/image12-mini.png") !important;
         width: 359px !important;
         height: 250px !important;
     }
@@ -1642,7 +1642,7 @@
     .testimonials__img1 {
         width: 359px;
         height: 250px;
-        background: url(/img/content/image12-mini.png);
+        background: url("../img/content/image12-mini.png");
     }
 
 
@@ -1757,7 +1757,7 @@
     }
 
     .img-single-product {
-        content: url(../img/promo22.svg);
+        content: url("../img/promo22.svg");
     }
 
     .img-single-product img {
