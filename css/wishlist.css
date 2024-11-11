@@ -112,7 +112,6 @@
 .wish__card-tastes::after {
     position: absolute;
     content: url("../img/heartorange.png");
-    
     top: 20px;
     right: 20px;
 }

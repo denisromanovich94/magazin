@@ -15,7 +15,13 @@
     color: var(--black);
     background: var(--white);
 }
-
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
 .header__nav {
     display: flex;
     justify-content: space-between;
@@ -33,7 +39,9 @@
     height: 50px;
     gap: 10px;
 }
-
+.header__socials {
+    display: none;
+}
 .header__li {
     border: 1px solid var(--orange);
     border-radius: 200px;

@@ -39,7 +39,19 @@
     width: 54px;
     height: 30px;
 }
-
+.footer__socials {
+    z-index: 11;
+}
+.header__socials {
+    margin-top: 102px;
+    z-index: 11;
+}
+.header__socials path{
+fill: var(--orange);
+}
+.header__socials rect{
+stroke: var(--orange);
+}
 .footer__socials-link:hover path {
     fill: var(--orange);
 }

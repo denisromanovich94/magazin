@@ -125,7 +125,6 @@
     padding-top: 64px;
     width: 1400px;
     overflow: hidden;
-    margin-left: 20px;
 }
 
 .product__inner1 {
@@ -177,4 +176,10 @@
     height: 921px;
     overflow: hidden;
     width: 1400px;
+}
+
+
+
+.img-single-product {
+    content: url(../img/promo-2.svg);
 }

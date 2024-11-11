@@ -51,7 +51,9 @@
     line-height: 130%;
     color: var(--stroke);
 }
-
+.img-ty {
+    content: url("../img/tealime.png");
+}
 .ty__item {
     display: flex;
     text-align: center;

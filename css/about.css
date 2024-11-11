@@ -44,14 +44,19 @@
     background: #ff9e35;
 }
 
-.about-d__buyers {
+.about-d__buyers1 {
     display: flex;
     align-items: center;
     margin-top: 157px;
 }
+.about-d__buyers {
+    display: flex;
+    align-items: center;
+    width: 201px;
+}
 
-.about-d__buyers img {
-    margin-left: -5%;
+.about-d__buyers1 img {
+    margin-left: -10%;
 }
 
 .about-d__buyers img:first-child {
@@ -59,7 +64,7 @@
 }
 
 .about-d__buy-titl-text {
-    margin-left: 24px;
+    margin-left: 48px;
 }
 
 
