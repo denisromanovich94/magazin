@@ -148,3 +148,10 @@ window.addEventListener('scroll', () => {
         }).join('');
     }
 });
+
+
+
+// Бургер меню кнопка
+// document.getElementById('burger').addEventListener('click', function() {
+//     this.classList.toggle('active');
+// });
