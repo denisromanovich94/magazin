@@ -90,7 +90,7 @@ const swiper1 = new Swiper('.swiper1', {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const wmn = document.querySelector('.wmn');
     const wmnMore = document.querySelector('.wmn-more');
 
@@ -131,7 +131,7 @@ window.addEventListener('scroll', () => {
     if (isElementInView) {
         const scrollPosition = window.scrollY; // текущая позиция прокрутки
         const maxScroll = document.body.scrollHeight - window.innerHeight;
-        
+
         // Рассчитываем процент прокрутки
         const scrollPercentage = scrollPosition / maxScroll;
 
@@ -151,7 +151,8 @@ window.addEventListener('scroll', () => {
 
 
 
-// Бургер меню кнопка
-// document.getElementById('burger').addEventListener('click', function() {
-//     this.classList.toggle('active');
-// });
+//  Бургер меню кнопка
+document.getElementById('burger').addEventListener('click', function () {
+    this.classList.toggle('active'); // Добавляем/удаляем класс 'active' у бургера
+    document.body.classList.toggle('body--opened-menu'); // Добавляем/удаляем класс 'body--opened-menu' у <body>
+});
